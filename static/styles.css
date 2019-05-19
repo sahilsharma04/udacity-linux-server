@@ -1,0 +1,100 @@
+.container
+{
+	width: 100%;
+	height: auto;
+}
+body
+{
+	background-color: #000;
+	background-size: 100%;
+	color: #fff;
+	background: url("/static/bg.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.banner.main 
+{
+	margin-top: 90px;
+	height: 300px;
+	background-width: 100%;
+}
+#head1
+{
+	font-size: 60px;
+	letter-spacing: 1px;
+	font-family: monherrat , sans-serif;
+	font-weight: 700;
+}
+#item
+{
+	width: 50%;
+	height: auto;
+	margin-top: 20px;
+	float: left;
+	background-color: #424242;
+	height: 50px;
+	font-size: 30px;
+	padding: 5px 5px; 
+	text-decoration: none;
+}
+#item:hover
+{
+	opacity: 0.8;
+	transform: scale(1.1);
+	margin-left: 60px;
+}
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+#conta
+{
+	margin-top: 20px;
+	margin-left: 10%;
+	background-color: #000;
+	color: #fff;
+	width: 80%;
+	height: auto;
+	padding : 10px 10px;
+}
+#text
+{
+	width: 80%;
+}
+#b1
+{
+	width: 13%;
+	height: auto;
+	padding: 20px 20px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	background-color: #000;
+	border: 2px;
+}
+#submit
+{
+	width: 200px;
+	height: 40px;
+}
+button
+{
+	box-shadow: none;
+}
+button:hover
+{
+	transform: scale(1.1);
+	box-shadow: 4px 4px 4px 4px #000;
+	transition: 0.5s;
+}
+input
+{
+
+}
+input:hover
+{
+	transform: scale(1.1);
+	box-shadow: 4px 4px 4px 4px #000;
+	transition: 0.5s;
+}
